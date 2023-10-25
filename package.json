@@ -1,0 +1,23 @@
+{
+  "name": "nodejs",
+  "version": "1.0.0",
+  "description": "",
+  "main": "0.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@google-cloud/local-auth": "^2.1.0",
+    "docx": "^8.2.3",
+    "googleapis": "^105.0.0",
+    "lodash": "^4.17.21"
+  },
+  "bin": {
+    "encrypt": "./bin/enc.js",
+    "shanaTova": "./bin/st.js",
+    "shanaTovaWord": "./bin/st.word.js",
+    "shanaTovaEmail": "./bin/st.email.js"
+  }
+}
